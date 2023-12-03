@@ -8,8 +8,10 @@ function Portfolio({ assets }) {
         <>
             {assets.map((n, i) => {
                 return (
-                    <Asset index={i} asset={n} />
-                    // <div>{n}</div>
+                    <>
+                        <Asset key={i} asset={n} />
+                        <br />
+                    </>
 
                 );
             })}
