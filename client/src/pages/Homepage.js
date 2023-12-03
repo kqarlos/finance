@@ -9,8 +9,9 @@ function Homepage() {
     return (
         <>
             <div>
-                <div>Stocks</div>
-                <Portfolio assets={state.portfolio.assets} />
+
+                <div>Portfolios</div>
+                <Portfolio portfolio={state.portfolio} />
             </div>
 
         </>

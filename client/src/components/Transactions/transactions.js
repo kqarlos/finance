@@ -17,23 +17,21 @@ function Transaction({ txns }) {
     // }, []);
 
     return (
-        <>
+        <div className="container" >
             {txns.map((txn, i) => {
                 return (
-                    <>
-                        <div>Date: {txn.date}</div>
-                        <div>Type: {txn.type}</div>
-                        <div>Quantity: {txn.qty}</div>
-                        <div>Price per Share: {txn.pricePerUnit}</div>
-                        <div>Total Price: {txn.qty * txn.pricePerUnit}</div>
-                        <div>fees: {txn.fees}</div>
-                        <br />
+                    <div className="row" key={i}>
+                        <div className="col">Date: {txn.date}</div>
+                        <div className="col">Type: {txn.type}</div>
+                        <div className="col">Quantity: {txn.qty}</div>
+                        <div className="col">Price / Share: {txn.pricePerUnit}</div>
+                        <div className="col">Total Price: {txn.qty * txn.pricePerUnit}</div>
+                        <div className="col">fees: {txn.fees}</div>
 
-
-                    </>
+                    </div>
                 );
             })}
-        </>
+        </div>
     );
 }
 
