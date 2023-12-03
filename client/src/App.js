@@ -1,7 +1,11 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
 import Homepage from './pages/Homepage';
 
 function App() {
+
+
   return (
     <div className="App">
       {/* <header className="App-header">
@@ -18,7 +22,18 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Homepage />
+      {/* <Homepage /> */}
+      {/* {state.portfolio.name} */}
+
+      <Router>
+
+        <Routes>
+          <Route exact path="/" element={<Homepage />} />
+          {/* <Route path="/***" component={***} /> */}
+          <Route path="/:nomatch" element={<Homepage />} />
+        </Routes>
+
+      </Router>
     </div>
   );
 }

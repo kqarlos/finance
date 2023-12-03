@@ -8,7 +8,9 @@ function Homepage() {
 
     return (
         <>
+            {/* {state.portfolio.assets} */}
             <Portfolio assets={state.portfolio.assets} />
+
         </>
     );
 }

@@ -1,12 +1,13 @@
 import React, { createContext, useReducer, useContext } from "react";
-// import {} from "./actions";
+import {UPDATE} from "./actions";
 
 const StoreContext = createContext();
 const { Provider } = StoreContext;
 
 const reducer = (state, action) => {
     switch (action.type) {
-        
+        case UPDATE:
+            return state;
         default:
             return state;
     }
