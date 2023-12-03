@@ -17,16 +17,28 @@ function Transaction({ txns }) {
     // }, []);
 
     return (
-        <div className="container" >
+        <div className="col" >
+
+
+            <div className="row m-2">
+                <div className="col">Date</div>
+                <div className="col">Type</div>
+                <div className="col">Quantity</div>
+                <div className="col">Price / Share</div>
+                <div className="col">Total Price</div>
+                <div className="col">fees</div>
+
+            </div>
             {txns.map((txn, i) => {
                 return (
-                    <div className="row" key={i}>
-                        <div className="col">Date: {txn.date}</div>
-                        <div className="col">Type: {txn.type}</div>
-                        <div className="col">Quantity: {txn.qty}</div>
-                        <div className="col">Price / Share: {txn.pricePerUnit}</div>
-                        <div className="col">Total Price: {txn.qty * txn.pricePerUnit}</div>
-                        <div className="col">fees: {txn.fees}</div>
+
+                    <div className="row bg-primary py-1 m-2 rounded-3" key={i}>
+                        <div className="col">{txn.date}</div>
+                        <div className="col">{txn.type}</div>
+                        <div className="col">{txn.qty}</div>
+                        <div className="col">{txn.pricePerUnit}</div>
+                        <div className="col">{txn.qty * txn.pricePerUnit}</div>
+                        <div className="col">{txn.fees}</div>
 
                     </div>
                 );

@@ -29,19 +29,50 @@ function Asset({ asset }) {
     }, []);
 
     return (
-        <div className="row bg-primary-subtle py-4  m-2" >
-            <div>Type: {asset.type}</div>
-            <div>Name: {asset.name}</div>
-            <div>Ticker: {asset.tkr}</div>
-            <div>Holdings: {data.holdings}</div>
-            <div>Current Value: GET DATA FROM API</div>
-            <div>Avgerage Buying Price {data.avgBuyingPrice}</div>
-            <div>Total Buying Price {data.totalBuyingPrice}</div>
-            <div>Locations: {asset.locations}</div>
-            <div>Transactions:
-                <Transaction txns={asset.transactions} />
-            </div>
 
+        <div className="row bg-primary-subtle py-3 my-5 mx-2 rounded-3">
+            <div className="col">
+
+                <div className="row m-2 py-1 bg-primary rounded-3">
+                    <div className="col-12">Info</div>
+                </div>
+
+                <div className="row m-2">
+                    <div className="col-6">
+                        <div>Type: {asset.type}</div>
+                        <div>Name: {asset.name}</div>
+                    </div>
+                    <div className="col-6">
+                        <div>Ticker: {asset.tkr}</div>
+                        <div>Current Value: GET DATA FROM API</div>
+                    </div>
+                </div>
+
+
+                <div className="row m-2 py-1 bg-primary rounded-3">
+                    <div className="col-12">Holdings</div>
+                </div>
+
+                <div className="row m-2">
+                    <div className="col-6">
+                        <div>Holdings: {data.holdings}</div>
+                        <div>Avgerage Buying Price {data.avgBuyingPrice}</div>
+                    </div>
+                    <div className="col-6">
+                        <div>Total Buying Price {data.totalBuyingPrice}</div>
+                        <div>Locations: {asset.locations}</div>
+                    </div>
+                </div>
+
+                <div className="row m-2 py-1 bg-primary rounded-3">
+                    <div className="col-12">Transactions</div>
+                </div>
+
+                <div className="row bg-primary-subtle" >
+                    <Transaction txns={asset.transactions} />
+                </div>
+
+            </div>
         </div>
     );
 }
