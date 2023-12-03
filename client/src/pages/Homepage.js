@@ -11,7 +11,7 @@ function Homepage() {
             <div>
 
                 <div>Portfolios</div>
-                <Portfolio portfolio={state.portfolio} />
+                <Portfolio portfolio={state.portfolio.portfolio} />
             </div>
 
         </>
