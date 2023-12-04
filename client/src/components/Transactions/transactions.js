@@ -20,19 +20,19 @@ function Transaction({ txns }) {
         <div className="col" >
 
 
-            <div className="row m-2">
+            <div className="row m-2 py-1 bg-primary text-white h5 rounded-3">
                 <div className="col">Date</div>
                 <div className="col">Type</div>
                 <div className="col">Quantity</div>
                 <div className="col">Price / Share</div>
                 <div className="col">Total Price</div>
-                <div className="col">fees</div>
+                <div className="col">Fees</div>
 
             </div>
             {txns.map((txn, i) => {
                 return (
 
-                    <div className="row bg-primary py-1 m-2 rounded-3" key={i}>
+                    <div className="row bg-primary text-white mx-2 my-1 rounded-3" key={i}>
                         <div className="col">{txn.date}</div>
                         <div className="col">{txn.type}</div>
                         <div className="col">{txn.qty}</div>

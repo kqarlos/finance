@@ -5,8 +5,8 @@ function Portfolio({ portfolio }) {
 
 
     return (
-        <div className="container bg-primary p-2 rounded-3">
-            <div>Name: {portfolio.name}</div>
+        <div className="container bg-primary py-4 rounded-3">
+            <div className="text-white h3">{portfolio.name}</div>
             {portfolio.assets.map((n, i) => {
                 return (
                     <Asset key={i} asset={n} />

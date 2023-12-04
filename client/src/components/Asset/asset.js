@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Transaction from "../Transactions/transactions";
+import Transactions from "../Transactions/transactions";
 
 function Asset({ asset }) {
 
@@ -9,9 +9,14 @@ function Asset({ asset }) {
         ),
         totalBuyingPrice: asset.transactions.reduce((acc, txn) =>
             acc + (txn.qty * txn.pricePerUnit), 0),
-        avgBuyingPrice: 0
+        avgBuyingPrice: 0,
+        displayTxn: true
 
     });
+
+    let toggleTxn = () => {
+        setData({ ...data, displayTxn: !data.displayTxn })
+    }
 
     // const apiKey = '429bf059-ccde-42be-8157-4c180c2375a7'
 
@@ -33,43 +38,40 @@ function Asset({ asset }) {
         <div className="row bg-primary-subtle py-3 my-5 mx-2 rounded-3">
             <div className="col">
 
-                <div className="row m-2 py-1 bg-primary rounded-3">
-                    <div className="col-12">Info</div>
+                <div className="row m-2 py-1 bg-primary text-white h5 rounded-3">
+                    <div className="col-3">Type</div>
+                    <div className="col-3">Name</div>
+                    <div className="col-3">Ticker</div>
+                    <div className="col-3">CurrentValue</div>
                 </div>
 
                 <div className="row m-2">
-                    <div className="col-6">
-                        <div>Type: {asset.type}</div>
-                        <div>Name: {asset.name}</div>
-                    </div>
-                    <div className="col-6">
-                        <div>Ticker: {asset.tkr}</div>
-                        <div>Current Value: GET DATA FROM API</div>
-                    </div>
+                    <div className="col-3">{asset.type}</div>
+                    <div className="col-3">{asset.name}</div>
+                    <div className="col-3">{asset.tkr}</div>
+                    <div className="col-3">GET FROM API</div>
                 </div>
 
-
-                <div className="row m-2 py-1 bg-primary rounded-3">
-                    <div className="col-12">Holdings</div>
+                <div className="row m-2 py-1 bg-primary text-white h5 rounded-3">
+                    <div className="col-3">Holdings</div>
+                    <div className="col-3">Avg. Buying Price</div>
+                    <div className="col-3">Total Buying Price</div>
+                    <div className="col-3">Locations</div>
                 </div>
 
                 <div className="row m-2">
-                    <div className="col-6">
-                        <div>Holdings: {data.holdings}</div>
-                        <div>Avgerage Buying Price {data.avgBuyingPrice}</div>
-                    </div>
-                    <div className="col-6">
-                        <div>Total Buying Price {data.totalBuyingPrice}</div>
-                        <div>Locations: {asset.locations}</div>
-                    </div>
+                    <div className="col-3">{data.holdings}</div>
+                    <div className="col-3">{data.avgBuyingPrice}</div>
+                    <div className="col-3">{data.totalBuyingPrice}</div>
+                    <div className="col-3">{asset.locations}</div>
                 </div>
 
-                <div className="row m-2 py-1 bg-primary rounded-3">
-                    <div className="col-12">Transactions</div>
+                <div className="row m-2 py-1 bg-primary text-white h5 rounded-3">
+                    <div className="col-12" onClick={toggleTxn}>Transactions:</div>
                 </div>
 
                 <div className="row bg-primary-subtle" >
-                    <Transaction txns={asset.transactions} />
+                    <Transactions txns={asset.transactions} />
                 </div>
 
             </div>
