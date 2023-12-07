@@ -17,7 +17,7 @@ const reducer = (state, action) => {
 
 const StoreProvider = ({ value = [], ...props }) => {
     const [state, dispatch] = useReducer(reducer, {
-        portfolio: data
+        finances: data
     });
     return <Provider value={[state, dispatch]} {...props} />;
 };

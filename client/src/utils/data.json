@@ -1,62 +1,295 @@
 {
     "portfolio": {
-        "name": "Main Portfolio",
-        "assets": [
+        "name": "All assets",
+        "fiat": [
             {
-                "type": "Stock",
-                "name": "OPKO Health",
-                "tkr": "OPK",
+                "type": "Currency",
+                "name": "USD",
+                "tkr": "USD",
                 "locations": [
-                    "Robinhood"
-                ],
-                "transactions": [
                     {
-                        "date": "01/01/2020",
-                        "type": "BUY",
-                        "qty": 1,
-                        "pricePerUnit": 0,
-                        "fees": 0
+                        "name": "Coinbase",
+                        "qty": 50
+                    },
+                    {
+                        "name": "Robinhood",
+                        "qty": 1358.53
                     }
-                ]
+                ],
+                "transactions": [],
+                "notes": ""
+            }
+        ],
+        "crypto": [
+            {
+                "type": "L1",
+                "name": "Bitcoin",
+                "tkr": "BTC",
+                "locations": [
+                    {
+                        "name": "Coinbase",
+                        "qty": 50.00123610
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
             },
             {
-                "type": "Stock",
-                "name": "Roblox",
-                "tkr": "RBLX",
+                "type": "L1",
+                "name": "Ethereum",
+                "tkr": "ETH",
                 "locations": [
-                    "Robinhood"
-                ],
-                "transactions": [
                     {
-                        "date": "11/15/2021",
-                        "type": "BUY",
-                        "qty": 0.945461,
-                        "pricePerUnit": 105.77,
-                        "fees": 0
+                        "name": "Coinbase",
+                        "qty": 0.01282361
                     },
                     {
-                        "date": "11/29/2021",
-                        "type": "BUY",
-                        "qty": 0.759868,
-                        "pricePerUnit": 126.04,
-                        "fees": 0
-                    },
-                    {
-                        "date": "7/31/2022",
-                        "type": "BUY",
-                        "qty": 0.591334,
-                        "pricePerUnit": 42.28,
-                        "fees": 0
-                    },
-                    {
-                        "date": "2/14/2023",
-                        "type": "BUY",
-                        "qty": 0.4311778,
-                        "pricePerUnit": 34.74,
-                        "fees": 0
+                        "name": "Etherium Mainnet: Metamask, Crypto.com Defi, Coinbase Wallet",
+                        "qty": 0.0747
                     }
-                ]
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "L1",
+                "name": "Cardano",
+                "tkr": "ADA",
+                "locations": [
+                    {
+                        "name": "Crypto.com",
+                        "qty": 125
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "L1",
+                "name": "Solana",
+                "tkr": "SOL",
+                "locations": [
+                    {
+                        "name": "Phantom Wallet",
+                        "qty": 3.6445
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "L1",
+                "name": "Binance",
+                "tkr": "BNB",
+                "locations": [
+                    {
+                        "name": "Binance Smart Chain Mainnet: Metamask",
+                        "qty": 0.0671
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "L1",
+                "name": "Polygon",
+                "tkr": "MATIC",
+                "locations": [
+                    {
+                        "name": "Crypto.com",
+                        "qty": 280
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Gaming",
+                "name": "Inmutable X",
+                "tkr": "IMX",
+                "locations": [
+                    {
+                        "name": "Crypto.com",
+                        "qty": 7.45
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "L2",
+                "name": "Charlie 3",
+                "tkr": "C3",
+                "locations": [
+                    {
+                        "name": "Etherium Mainnet: Metamask",
+                        "qty": 386.28
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Gaming",
+                "name": "Polker",
+                "tkr": "PKR",
+                "locations": [
+                    {
+                        "name": "Etherium Mainnet: Metamask",
+                        "qty": 886.655794
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Gaming",
+                "name": "Charged Particles",
+                "tkr": "IONX",
+                "locations": [
+                    {
+                        "name": "Etherium Mainnet: Metamask",
+                        "qty": 395.58
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Gaming",
+                "name": "Vulcan Forged",
+                "tkr": "PYR",
+                "locations": [
+                    {
+                        "name": "Polygon Mainnet: Metamask",
+                        "qty": 17.93
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Gaming",
+                "name": "Starship",
+                "tkr": "STAR",
+                "locations": [
+                    {
+                        "name": "Binance Smart Chain Mainnet: Metamask",
+                        "qty": 157.0194
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Gaming",
+                "name": "Monsta",
+                "tkr": "MONSTA",
+                "locations": [
+                    {
+                        "name": "Binance Smart Chain Mainnet: Metamask",
+                        "qty": 4351.938
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Stable",
+                "name": "Tether",
+                "tkr": "USDT",
+                "locations": [
+                    {
+                        "name": "Crypto.com",
+                        "qty": 115
+                    },
+                    {
+                        "name": "Kucoin",
+                        "qty": 125.93
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Defi",
+                "name": "Crypto.com",
+                "tkr": "CRO",
+                "locations": [
+                    {
+                        "name": "Crypto.com",
+                        "qty": 9.73
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Long",
+                "name": "BTC3L",
+                "tkr": "BTC3L",
+                "locations": [
+                    {
+                        "name": "KuCoin",
+                        "qty": 0
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Short",
+                "name": "BTC3S",
+                "tkr": "BTC3S",
+                "locations": [
+                    {
+                        "name": "KuCoin",
+                        "qty": 8767.150268
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Short",
+                "name": "ETH3S",
+                "tkr": "ETH3S",
+                "locations": [
+                    {
+                        "name": "KuCoin",
+                        "qty": 1749052.1192
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Defi",
+                "name": "KCS",
+                "tkr": "KCS",
+                "locations": [
+                    {
+                        "name": "KuCoin",
+                        "qty": 2.42872218
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
             }
-        ]
+        ],
+        "stocks": [],
+        "ETF": []
+    },
+    "trading": {
+        "transactions": [
+            {
+                "date": "",
+                "type": "",
+                "qty": 0,
+                "pricePerUnit": 0,
+                "fees": 0
+            }
+        ],
+        "value": 0
     }
 }
