@@ -6,8 +6,8 @@ function Portfolio({ portfolio }) {
 
     return (
         <>
-            <div className="container bg-primary py-4 rounded-3">
-                <div className="text-white h3">{portfolio.name}</div>
+            <div className="row justify-content-around bg-primary py-2 my-2 rounded-3">
+                <div className="text-white h3">Fiat</div>
                 {portfolio.fiat.map((n, i) => {
                     return (
                         <Asset key={i} asset={n} />
@@ -15,8 +15,8 @@ function Portfolio({ portfolio }) {
                     );
                 })}
             </div>
-            <div className="container bg-primary py-4 rounded-3">
-                <div className="text-white h3">{portfolio.name}</div>
+            <div className="row justify-content-between bg-primary p-2 my-2 rounded-3">
+                <div className="text-white h3">Crypto</div>
                 {portfolio.crypto.map((n, i) => {
                     return (
                         <Asset key={i} asset={n} />

@@ -8,10 +8,18 @@ function Homepage() {
 
     return (
         <>
-            <div>
+            <div className='container p-2'>
 
-                <div>Portfolios</div>
-                <Portfolio portfolio={state.finances.portfolio} />
+                <div className='h1 text-white'>Finances</div>
+
+                <div className='row px-4 bg-white'>
+
+
+                    <div className='h2'>Portfolios</div>
+                    <Portfolio portfolio={state.finances.portfolio} />
+                </div>
+
+                
             </div>
 
         </>

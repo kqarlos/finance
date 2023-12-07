@@ -35,49 +35,39 @@ function Asset({ asset }) {
 
     return (
 
-        <div className="row bg-primary-subtle py-3 my-5 mx-2 rounded-3">
-            <div className="col">
+        <div className="col-sm-6 bg-primary-subtle py-1 my-3 rounded-3">
 
-                <div className="row m-2 py-1 bg-primary text-white h5 rounded-3">
-                    <div className="col-3">Type</div>
-                    <div className="col-3">Name</div>
-                    <div className="col-3">Ticker</div>
-                    <div className="col-3">CurrentValue</div>
-                </div>
+            <div className="row m-1 py-1 bg-primary text-white h5 rounded-3">
+                <div className="col-3">Type</div>
+                <div className="col-3">Name</div>
+                <div className="col-3">Ticker</div>
+                <div className="col-3">CurrentValue</div>
+            </div>
 
-                <div className="row m-2">
-                    <div className="col-3">{asset.type}</div>
-                    <div className="col-3">{asset.name}</div>
-                    <div className="col-3">{asset.tkr}</div>
-                    <div className="col-3">GET FROM API</div>
-                </div>
+            <div className="row m-1">
+                <div className="col-3">{asset.type}</div>
+                <div className="col-3">{asset.name}</div>
+                <div className="col-3">{asset.tkr}</div>
+                <div className="col-3">GET FROM API</div>
+            </div>
 
-                <div className="row m-2 py-1 bg-primary text-white h5 rounded-3">
-                    <div className="col-12" onClick={toggleTxn}>Locations:</div>
-                </div>
+            <div className="row m-1 py-1 bg-primary text-white h5 rounded-3" onClick={toggleTxn}>
+                <div className="col-6">Custodian Name</div>
+                <div className="col-6">Quantity</div>
+            </div>
 
-                {data.displayLocations ?
-                    <>
-                        <div className="row m-2 py-1 bg-primary text-white h5 rounded-3">
-                            <div className="col">Name</div>
-                            <div className="col">Quantity</div>
-
+            {data.displayLocations ?
+                asset.locations.map((location, i) => {
+                    return (
+                        <div className="row bg-primary text-white m-1 rounded-3" key={i}>
+                            <div className="col">{location.name}</div>
+                            <div className="col">{location.qty}</div>
                         </div>
-                        {asset.locations.map((location, i) => {
-                            return (
-
-                                <div className="row bg-primary text-white mx-2 my-1 rounded-3" key={i}>
-                                    <div className="col">{location.name}</div>
-                                    <div className="col">{location.qty}</div>
+                    );
+                }) : <></>}
 
 
-                                </div>
-                            );
-                        })}
-                    </> : <></>}
-
-
-                {/* <div className="row m-2 py-1 bg-primary text-white h5 rounded-3">
+            {/* <div className="row m-2 py-1 bg-primary text-white h5 rounded-3">
                     <div className="col-3">Holdings</div>
                     <div className="col-3">Avg. Buying Price</div>
                     <div className="col-3">Total Buying Price</div>
@@ -91,7 +81,7 @@ function Asset({ asset }) {
                     <div className="col-3">{asset.locations}</div>
                 </div> */}
 
-                {/* <div className="row m-2 py-1 bg-primary text-white h5 rounded-3">
+            {/* <div className="row m-2 py-1 bg-primary text-white h5 rounded-3">
                     <div className="col-12" onClick={toggleTxn}>Transactions:</div>
                 </div>
 
@@ -99,7 +89,6 @@ function Asset({ asset }) {
                     <Transactions txns={asset.transactions} />
                 </div> */}
 
-            </div>
         </div>
     );
 }
