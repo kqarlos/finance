@@ -8,11 +8,11 @@ function Homepage() {
 
     return (
         <>
-            <div className='container p-2'>
+            <div className='container p-3'>
 
                 <div className='h1 text-white'>Finances</div>
 
-                <div className='row px-4 bg-white'>
+                <div className='row justify-content-around px-4 bg-white rounded'>
 
 
                     <div className='h2'>Portfolios</div>

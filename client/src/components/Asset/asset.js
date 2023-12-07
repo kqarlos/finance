@@ -10,7 +10,11 @@ function Asset({ asset }) {
         // totalBuyingPrice: asset.transactions.reduce((acc, txn) =>
         //     acc + (txn.qty * txn.pricePerUnit), 0),
         // avgBuyingPrice: 0,
-        displayLocations: true
+        holdings: asset.locations.reduce((acc, loc) =>
+            acc + loc.qty, 0
+        ),
+        assetValue: asset.priceAction[0].price,
+        displayLocations: false
 
     });
 
@@ -35,25 +39,28 @@ function Asset({ asset }) {
 
     return (
 
-        <div className="col-sm-6 bg-primary-subtle py-1 my-3 rounded-3">
+        <div className="col-sm-5 bg-primary-subtle py-1 my-3 rounded-3">
 
             <div className="row m-1 py-1 bg-primary text-white h5 rounded-3">
-                <div className="col-3">Type</div>
-                <div className="col-3">Name</div>
-                <div className="col-3">Ticker</div>
-                <div className="col-3">CurrentValue</div>
+                <div className="col-4">{asset.name}</div>
+                <div className="col-4">{asset.tkr}</div>
+                <div className="col-4">{data.assetValue} USD / {asset.tkr}</div>
+
             </div>
 
             <div className="row m-1">
-                <div className="col-3">{asset.type}</div>
-                <div className="col-3">{asset.name}</div>
-                <div className="col-3">{asset.tkr}</div>
-                <div className="col-3">GET FROM API</div>
+                <div className="col-3">Holdings</div>
+                <div className="col-3">{data.holdings} {asset.tkr}</div>
+                <div className="col-3">Value</div>
+                <div className="col-3">{data.holdings * data.assetValue} USD</div>
             </div>
 
-            <div className="row m-1 py-1 bg-primary text-white h5 rounded-3" onClick={toggleTxn}>
-                <div className="col-6">Custodian Name</div>
-                <div className="col-6">Quantity</div>
+            <div className="row justify-content-around m-1 py-1 bg-primary text-white h5 rounded-3" onClick={toggleTxn}>
+                <div className="col-12">
+                    {asset.locations.reduce((acc, loc) =>
+                        acc + " " + loc.name, ""
+                    )}
+                </div>
             </div>
 
             {data.displayLocations ?

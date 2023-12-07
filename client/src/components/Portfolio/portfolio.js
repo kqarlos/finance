@@ -15,7 +15,7 @@ function Portfolio({ portfolio }) {
                     );
                 })}
             </div>
-            <div className="row justify-content-between bg-primary p-2 my-2 rounded-3">
+            <div className="row justify-content-around bg-primary py-2 my-2 rounded-3">
                 <div className="text-white h3">Crypto</div>
                 {portfolio.crypto.map((n, i) => {
                     return (
