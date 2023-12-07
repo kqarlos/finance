@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Transactions from "../Transactions/transactions";
+// import Transactions from "../Transactions/transactions";
 
 function Asset({ asset }) {
 
@@ -10,12 +10,12 @@ function Asset({ asset }) {
         // totalBuyingPrice: asset.transactions.reduce((acc, txn) =>
         //     acc + (txn.qty * txn.pricePerUnit), 0),
         // avgBuyingPrice: 0,
-        displayTxn: true
+        displayLocations: true
 
     });
 
     let toggleTxn = () => {
-        setData({ ...data, displayTxn: !data.displayTxn })
+        setData({ ...data, displayLocations: !data.displayLocations })
     }
 
     // const apiKey = '429bf059-ccde-42be-8157-4c180c2375a7'
@@ -56,23 +56,25 @@ function Asset({ asset }) {
                     <div className="col-12" onClick={toggleTxn}>Locations:</div>
                 </div>
 
-                <div className="row m-2 py-1 bg-primary text-white h5 rounded-3">
-                    <div className="col">Name</div>
-                    <div className="col">Quantity</div>
-
-                </div>
-
-                {asset.locations.map((location, i) => {
-                    return (
-
-                        <div className="row bg-primary text-white mx-2 my-1 rounded-3" key={i}>
-                            <div className="col">{location.name}</div>
-                            <div className="col">{location.qty}</div>
-
+                {data.displayLocations ?
+                    <>
+                        <div className="row m-2 py-1 bg-primary text-white h5 rounded-3">
+                            <div className="col">Name</div>
+                            <div className="col">Quantity</div>
 
                         </div>
-                    );
-                })}
+                        {asset.locations.map((location, i) => {
+                            return (
+
+                                <div className="row bg-primary text-white mx-2 my-1 rounded-3" key={i}>
+                                    <div className="col">{location.name}</div>
+                                    <div className="col">{location.qty}</div>
+
+
+                                </div>
+                            );
+                        })}
+                    </> : <></>}
 
 
                 {/* <div className="row m-2 py-1 bg-primary text-white h5 rounded-3">
