@@ -307,7 +307,7 @@
                     },
                     {
                         "name": "Kucoin",
-                        "qty": 148
+                        "qty": 31
                     }
                 ],
                 "priceAction": [
@@ -341,6 +341,46 @@
                 "notes": ""
             },
             {
+                "type": "Long",
+                "name": "BTC3L",
+                "tkr": "BTC3L",
+                "locations": [
+                    {
+                        "name": "KuCoin",
+                        "qty": 12264.8816
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "12/7/2023",
+                        "price": 0.006556,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Long",
+                "name": "ETH3L",
+                "tkr": "ETH3L",
+                "locations": [
+                    {
+                        "name": "KuCoin",
+                        "qty": 86470.4474
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "12/7/2023",
+                        "price": 0.001750,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
                 "type": "Short",
                 "name": "BTC3S",
                 "tkr": "BTC3S",
@@ -367,7 +407,7 @@
                 "locations": [
                     {
                         "name": "KuCoin",
-                        "qty": 1749052.1192
+                        "qty": 0
                     }
                 ],
                 "priceAction": [
@@ -401,7 +441,48 @@
                 "notes": ""
             }
         ],
-        "stocks": [],
+        "stocks": [
+            {
+                "type": "Tech",
+                "name": "Palantir",
+                "tkr": "PLTR",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 11.270128
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "12/8/2023",
+                        "price": 17.32,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Tech",
+                "name": "Robinhood",
+                "tkr": "HOOD",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 9.378886
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "12/8/2023",
+                        "price": 11.51,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            }
+        ],
         "ETF": []
     },
     "trading": {
