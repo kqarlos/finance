@@ -14,6 +14,7 @@ function Asset({ asset }) {
             acc + loc.qty, 0
         ),
         assetValue: asset.priceAction[0].price,
+
         displayLocations: false
 
     });
@@ -25,6 +26,7 @@ function Asset({ asset }) {
     // const apiKey = '429bf059-ccde-42be-8157-4c180c2375a7'
 
     useEffect(() => {
+      
         // fetch(
         //     'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
         //     + '?CMC_PRO_API_KEY=' + apiKey

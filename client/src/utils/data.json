@@ -9,20 +9,24 @@
                 "locations": [
                     {
                         "name": "Coinbase",
-                        "qty": 50
+                        "qty": 5
                     },
                     {
                         "name": "Robinhood",
-                        "qty": 958
+                        "qty": 236
                     },
                     {
                         "name": "Crypto.com",
+                        "qty": 0
+                    },
+                    {
+                        "name": "KuCoin",
                         "qty": 0
                     }
                 ],
                 "priceAction": [
                     {
-                        "date": "12/7/2023",
+                        "date": "1/11/2024",
                         "price": 1,
                         "action": ""
                     }
@@ -39,10 +43,19 @@
                 "locations": [
                     {
                         "name": "Coinbase",
-                        "qty": 0.00123610
+                        "qty": 0.000123610
+                    },
+                    {
+                        "name": "Robinhood",
+                        "qty": 0.0063326
                     }
                 ],
                 "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 46218,
+                        "action": ""
+                    },
                     {
                         "date": "12/7/2023",
                         "price": 44000,
@@ -62,11 +75,20 @@
                         "qty": 0.01282361
                     },
                     {
+                        "name": "Robinhood",
+                        "qty": 0.076262
+                    },
+                    {
                         "name": "Etherium Mainnet: Metamask, Crypto.com Defi, Coinbase Wallet",
-                        "qty": 0.0871
+                        "qty": 0.0397
                     }
                 ],
                 "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 2600,
+                        "action": ""
+                    },
                     {
                         "date": "12/7/2023",
                         "price": 2250,
@@ -88,6 +110,11 @@
                 ],
                 "priceAction": [
                     {
+                        "date": "1/11/2024",
+                        "price": 0.5855,
+                        "action": ""
+                    },
+                    {
                         "date": "12/7/2023",
                         "price": 0.438,
                         "action": ""
@@ -104,9 +131,18 @@
                     {
                         "name": "Phantom Wallet",
                         "qty": 3.6445
+                    },
+                    {
+                        "name": "Crypto.com",
+                        "qty": 0.4094
                     }
                 ],
                 "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 100,
+                        "action": ""
+                    },
                     {
                         "date": "12/7/2023",
                         "price": 63.57,
@@ -128,6 +164,11 @@
                 ],
                 "priceAction": [
                     {
+                        "date": "1/11/2024",
+                        "price": 313,
+                        "action": ""
+                    },
+                    {
                         "date": "12/7/2023",
                         "price": 230,
                         "action": ""
@@ -143,13 +184,112 @@
                 "locations": [
                     {
                         "name": "Crypto.com",
-                        "qty": 280
+                        "qty": 80.86
+                    },
+                    {
+                        "name": "Crypto.com Earn",
+                        "qty": 250
                     }
                 ],
                 "priceAction": [
                     {
+                        "date": "1/11/2024",
+                        "price": 0.91,
+                        "action": ""
+                    },
+                    {
                         "date": "12/7/2023",
                         "price": 0.824,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "L1",
+                "name": "Avalanche",
+                "tkr": "AVAX",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 0
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "12/17/2023",
+                        "price": 42.07,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Defi",
+                "name": "Ripple",
+                "tkr": "XRP",
+                "locations": [
+                    {
+                        "name": "Crypto.com",
+                        "qty": 53.28
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 0.6070,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Defi",
+                "name": "ChainLink",
+                "tkr": "LINK",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 12.37
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 15.15,
+                        "action": ""
+                    },
+                    {
+                        "date": "12/17/2023",
+                        "price": 14.21,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Meme",
+                "name": "Dogecoin",
+                "tkr": "DOGE",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 648.77
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 0.084374,
+                        "action": ""
+                    },
+                    {
+                        "date": "12/17/2023",
+                        "price": 0.095064,
                         "action": ""
                     }
                 ],
@@ -163,13 +303,123 @@
                 "locations": [
                     {
                         "name": "Crypto.com",
-                        "qty": 7.45
+                        "qty": 26.19
                     }
                 ],
                 "priceAction": [
                     {
+                        "date": "1/11/2024",
+                        "price": 2.225,
+                        "action": ""
+                    },
+                    {
                         "date": "12/7/2023",
                         "price": 1.4,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Gaming",
+                "name": "Gala",
+                "tkr": "GALA",
+                "locations": [
+                    {
+                        "name": "Crypto.com",
+                        "qty": 999
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 0.02802,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Gaming",
+                "name": "Illuvium",
+                "tkr": "ILV",
+                "locations": [
+                    {
+                        "name": "Crypto.com",
+                        "qty": 0.308
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 95.73,
+                        "action": ""
+                    },
+                    {
+                        "date": "12/7/2023",
+                        "price": 97,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "",
+                "name": "VeChain",
+                "tkr": "VET",
+                "locations": [
+                    {
+                        "name": "Crypto.com",
+                        "qty": 322.5
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 0.03398,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "L2",
+                "name": "Algorand",
+                "tkr": "ALGO",
+                "locations": [
+                    {
+                        "name": "Crypto.com",
+                        "qty": 52.8
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 0.2071,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "L2",
+                "name": "Hedera",
+                "tkr": "HBAR",
+                "locations": [
+                    {
+                        "name": "Crypto.com",
+                        "qty": 126.1
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 0.08639,
                         "action": ""
                     }
                 ],
@@ -187,6 +437,11 @@
                     }
                 ],
                 "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 0.1462,
+                        "action": ""
+                    },
                     {
                         "date": "12/7/2023",
                         "price": 0.188,
@@ -208,6 +463,11 @@
                 ],
                 "priceAction": [
                     {
+                        "date": "1/11/2024",
+                        "price": 0.009,
+                        "action": ""
+                    },
+                    {
                         "date": "12/7/2023",
                         "price": 0.006402,
                         "action": ""
@@ -218,7 +478,7 @@
             },
             {
                 "type": "Gaming",
-                "name": "Charged Particles???",
+                "name": "Charged Particles",
                 "tkr": "IONX",
                 "locations": [
                     {
@@ -227,6 +487,11 @@
                     }
                 ],
                 "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 0.02384,
+                        "action": ""
+                    },
                     {
                         "date": "12/7/2023",
                         "price": 0.0351,
@@ -248,6 +513,11 @@
                 ],
                 "priceAction": [
                     {
+                        "date": "1/11/2024",
+                        "price": 7.68,
+                        "action": ""
+                    },
+                    {
                         "date": "12/7/2023",
                         "price": 6.78,
                         "action": ""
@@ -263,10 +533,15 @@
                 "locations": [
                     {
                         "name": "Binance Smart Chain Mainnet: Metamask",
-                        "qty": 157.177
+                        "qty": 157.49
                     }
                 ],
                 "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 0.02775,
+                        "action": ""
+                    },
                     {
                         "date": "12/7/2023",
                         "price": 0.02313,
@@ -288,6 +563,11 @@
                 ],
                 "priceAction": [
                     {
+                        "date": "1/11/2024",
+                        "price": 0.0001428,
+                        "action": ""
+                    },
+                    {
                         "date": "12/7/2023",
                         "price": 0.0001339,
                         "action": ""
@@ -303,16 +583,16 @@
                 "locations": [
                     {
                         "name": "Crypto.com",
-                        "qty": 115
+                        "qty": 0.21
                     },
                     {
                         "name": "Kucoin",
-                        "qty": 31
+                        "qty": 17.1
                     }
                 ],
                 "priceAction": [
                     {
-                        "date": "12/7/2023",
+                        "date": "1/11/2024",
                         "price": 1,
                         "action": ""
                     }
@@ -327,10 +607,15 @@
                 "locations": [
                     {
                         "name": "Crypto.com",
-                        "qty": 9.73
+                        "qty": 13.93
                     }
                 ],
                 "priceAction": [
+                    {
+                        "date": "12/7/2023",
+                        "price": 0.0944,
+                        "action": ""
+                    },
                     {
                         "date": "12/7/2023",
                         "price": 0.0933,
@@ -347,10 +632,15 @@
                 "locations": [
                     {
                         "name": "KuCoin",
-                        "qty": 12264.8816
+                        "qty": 51501.9841
                     }
                 ],
                 "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 0.006773,
+                        "action": ""
+                    },
                     {
                         "date": "12/7/2023",
                         "price": 0.006556,
@@ -367,10 +657,15 @@
                 "locations": [
                     {
                         "name": "KuCoin",
-                        "qty": 86470.4474
+                        "qty": 43698.6625
                     }
                 ],
                 "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 0.001875,
+                        "action": ""
+                    },
                     {
                         "date": "12/7/2023",
                         "price": 0.001750,
@@ -387,7 +682,7 @@
                 "locations": [
                     {
                         "name": "KuCoin",
-                        "qty": 7790.20
+                        "qty": 0
                     }
                 ],
                 "priceAction": [
@@ -427,10 +722,15 @@
                 "locations": [
                     {
                         "name": "KuCoin",
-                        "qty": 2.421
+                        "qty": 2.32
                     }
                 ],
                 "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 10.13,
+                        "action": ""
+                    },
                     {
                         "date": "12/7/2023",
                         "price": 9.28,
@@ -454,6 +754,11 @@
                 ],
                 "priceAction": [
                     {
+                        "date": "1/11/2024",
+                        "price": 16.95,
+                        "action": ""
+                    },
+                    {
                         "date": "12/8/2023",
                         "price": 17.32,
                         "action": ""
@@ -469,7 +774,7 @@
                 "locations": [
                     {
                         "name": "Robinhood",
-                        "qty": 9.378886
+                        "qty": 0
                     }
                 ],
                 "priceAction": [
@@ -481,9 +786,490 @@
                 ],
                 "transactions": [],
                 "notes": ""
+            },
+            {
+                "type": "Entretainment",
+                "name": "Disney",
+                "tkr": "DIS",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 1.52
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 89.97,
+                        "action": ""
+                    },
+                    {
+                        "date": "12/17/2023",
+                        "price": 93.5,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "EV",
+                "name": "Ford",
+                "tkr": "F",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 0
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "12/17/2023",
+                        "price": 12.01,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "EV",
+                "name": "General Motots",
+                "tkr": "GM",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 0.99579
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 36.33,
+                        "action": ""
+                    },
+                    {
+                        "date": "12/17/2023",
+                        "price": 35.79,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "EV",
+                "name": "Tesla",
+                "tkr": "TSLA",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 0.346172
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 235.94,
+                        "action": ""
+                    },
+                    {
+                        "date": "12/17/2023",
+                        "price": 253.39,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Tech",
+                "name": "Oracle",
+                "tkr": "ORCL",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 0.488387
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 104.22,
+                        "action": ""
+                    },
+                    {
+                        "date": "12/17/2023",
+                        "price": 103.5,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Consumer Goods",
+                "name": "Walmart",
+                "tkr": "WMT",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 0.327258
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 161.25,
+                        "action": ""
+                    },
+                    {
+                        "date": "12/17/2023",
+                        "price": 152.9,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Tech",
+                "name": "Adobe",
+                "tkr": "ADBE",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 0.084309
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 595.49,
+                        "action": ""
+                    },
+                    {
+                        "date": "12/17/2023",
+                        "price": 584.37,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Airline Infrastructure",
+                "name": "Boeing",
+                "tkr": "BA",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 0.131926
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 229,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Consumer Goods",
+                "name": "Hershey",
+                "tkr": "HSY",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 0.259797
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 188.86,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Pharma",
+                "name": "Pfizer",
+                "tkr": "PFE",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 0
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "12/17/2023",
+                        "price": 26.63,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
             }
         ],
-        "ETF": []
+        "ETF": [
+            {
+                "type": "Emerging Markets",
+                "name": "Vanguard FTSE Emerging Markets Funds",
+                "tkr": "VWO",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 0.646178
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 40.39,
+                        "action": ""
+                    },
+                    {
+                        "date": "12/17/2023",
+                        "price": 41.48,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Dividend",
+                "name": "Invesco S&P 500 High Dividend Low Volatility ETF",
+                "tkr": "SPHD",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 1.311029
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 43.18,
+                        "action": ""
+                    },
+                    {
+                        "date": "12/17/2023",
+                        "price": 42.9,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Dividend",
+                "name": "Vanguard High Dividend Yield ETF",
+                "tkr": "VYM",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 0.24592
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 111,
+                        "action": ""
+                    },
+                    {
+                        "date": "12/17/2023",
+                        "price": 111.11,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Dividend",
+                "name": "Schwab US DIvidend Equity ETF",
+                "tkr": "SCHD",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 0.352202
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 76.52,
+                        "action": ""
+                    },
+                    {
+                        "date": "12/17/2023",
+                        "price": 75.65,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Emerging Markets",
+                "name": "iShares MSCI Brazil fun",
+                "tkr": "EWZ",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 0.714796
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 34.05,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "China",
+                "name": "KraneShares CSI China Internet",
+                "tkr": "KWEB",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 1.871097
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 25.6,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Commodities",
+                "name": "iShares Gold Trust",
+                "tkr": "IAU",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 15.61
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 38.37,
+                        "action": ""
+                    },
+                    {
+                        "date": "12/17/2023",
+                        "price": 38.20,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Commodities",
+                "name": "iShares Silver Trust",
+                "tkr": "SLV",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 16.35
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 21.06,
+                        "action": ""
+                    },
+                    {
+                        "date": "12/17/2023",
+                        "price": 21.85,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Commodities",
+                "name": "Gloabal X Lithium & Battery",
+                "tkr": "LIT",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 0.31689
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 47.11,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Commodities",
+                "name": "Global X Uranium ETF",
+                "tkr": "URA",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 0.883236
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "1/11/2024",
+                        "price": 28.78,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            },
+            {
+                "type": "Commodities",
+                "name": "United States Natural Gas Fund",
+                "tkr": "UNG",
+                "locations": [
+                    {
+                        "name": "Robinhood",
+                        "qty": 0
+                    }
+                ],
+                "priceAction": [
+                    {
+                        "date": "12/17/2023",
+                        "price": 4.84,
+                        "action": ""
+                    }
+                ],
+                "transactions": [],
+                "notes": ""
+            }
+        ]
     },
     "trading": {
         "transactions": [
